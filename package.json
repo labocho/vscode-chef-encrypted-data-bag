@@ -1,8 +1,8 @@
 {
 	"name": "chef-encrypted-data-bag",
-	"displayName": "chef-encrypted-data-bag",
-	"description": "Add commands to encrypt/decrypt chef encrypted data item",
-	"version": "0.0.1",
+	"displayName": "Chef encrypted data bag",
+	"description": "Add commands to encrypt/decrypt chef encrypted data bag item",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
@@ -39,5 +39,10 @@
 		"tslint": "^5.12.1",
 		"@types/node": "^10.12.21",
 		"@types/mocha": "^2.2.42"
+	},
+	"publisher": "labocho",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/labocho/vscode-chef-encrypted-data-bag.git"
 	}
 }
